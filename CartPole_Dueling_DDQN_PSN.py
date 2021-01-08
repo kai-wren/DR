@@ -40,7 +40,7 @@ agent_params.network_wrappers['main'].heads_parameters = \
 # ER size
 agent_params.memory.max_size = (MemoryGranularity.Transitions, 40000)
 
-# UCB exploration
+# Parametric Space Noise exploration
 agent_params.exploration = ParameterNoiseParameters(agent_params)
 
 ################
